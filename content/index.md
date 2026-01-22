@@ -1,9 +1,9 @@
 ---
-title: Welcome to Quartz
+title: Welcome to the world of Loca Deserta!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is a fantasy world set in the XVII century in the souther part of Ukraine. Known in those time as "Loca Deserta" (Wild Lands, Lands without law).
 
+Enjoy the Lore!
 
-Let's go [[Sich]]
+Let's go [Sich Lore!](Lore/Lore.md)
