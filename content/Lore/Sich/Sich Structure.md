@@ -1,4 +1,4 @@
-The territory of Sich is divided into palankas with centers in large cities-villages of the palanka. In the game there are three palankas: [[Kodak Palanka]], [[🏫Inhul Palanka]], [[Samara Palanka]]. Each palanka has its own specialization depending on natural conditions.
+The territory of Sich is divided into palankas with centers in large cities-villages of the palanka. In the game there are three palankas [[Kodak Palanka]] [[Inhul Palanka]], [[Samara Palanka]]. Each palanka has its own specialization depending on natural conditions.
 
 Once a year, Sich elects a koshovyi otaman and the Sich Council. They determine all foreign policy of Sich, with whom to fight and when.
 

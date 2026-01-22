@@ -2,9 +2,9 @@
 - **Religions**
 	- [[Witchcraft]]
 	- [[Churchmen]]
-- [[Wild Field Sich Universe]]
+- [[Loca Deserta Sich Universe]]
 - [[Sich Economy]]
-- [[Sich Structure]]
+- [[Lore/Sich/Sich Structure]]
 - [[Fantasy Component]]
 
 %% End Waypoint %%

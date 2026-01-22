@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Loca Deserta Game Universe",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
