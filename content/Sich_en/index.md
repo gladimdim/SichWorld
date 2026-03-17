@@ -7,10 +7,10 @@ Known in those times as "Loca Deserta" (Wild Lands, Lands without Law).
 
 Enjoy the Lore!
 
-- [[Lore/Lore|World Lore]]
+- [[Sich_en/Lore|World Lore]]
 - [[Sich_en/Quests|Quests]]
-- [[Factions/Factions|Factions]]
-- [[Geography/Geography|Geography]]
-- [[Monsters/Monsters|Monsters]]
-- [[Weapons/Weapons|Weapons]]
-- [[RPG Elements/RPG Elements|RPG Elements]]
+- [[Sich_en/Factions|Factions]]
+- [[Sich_en/Geography|Geography]]
+- [[Sich_en/Monsters|Monsters]]
+- [[Sich_en/Weapons|Weapons]]
+- [[Sich_en/RPG Elements|RPG Elements]]
