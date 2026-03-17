@@ -1,0 +1,5 @@
+# ❓ Escape from the Island
+
+Old [[Blahomir]] explains that this island is the antechamber of the Otherworld and that the hero has probably died. But nothing is known to him about this, so he orders you to go to the cemetery and check whether there is a fresh grave. The hero finds a grave, but it bears the surname [[Yakym Pohrebnyi]]. The hero returns to the old man and tells him, whereupon he is ordered to find this Pohrebnyi and bring him here. The quest may intersect with [[Find Yakym Pohrebnyi's Horse]], depending on who is met first, but Pohrebnyi will only go to the old man after completing the Find the Horse quest.
+
+If you bring Pohrebnyi, he says he is ready to go to the underworld, and Blahomir orders the hero to go to the shore and sit in the boat. On the shore, instead of the wrecked boat, a new one appears. The hero sits in it and regains consciousness in the place where they were wounded in the main part of the game. Their possessions reappear; the loot from the island, on the contrary, disappears. Only near them can the hero find a golden Scythian deer figurine (simply a valuable item that can be sold).
