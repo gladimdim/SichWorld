@@ -3,7 +3,7 @@
 
 # ❓ Chapter 2
 
-After joining any of the palankas, the hero can enter [[Sich]] territory.
+After joining any of the palankas, the hero can enter [[../../../Січ/Січ]] territory.
 
 In the Outer Circle of Sich you can ask where to find the Ataman. He is in the Inner Circle (IC), which is guarded by Cossacks and cannot be entered casually.
 

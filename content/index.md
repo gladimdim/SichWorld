@@ -6,6 +6,6 @@ This is a fantasy world set in the XVII century in the souther part of Ukraine. 
 
 Enjoy the Lore!
 
-Let's read [Sich Lore in English!](Sich_en)
+Let's read [[Sich_en/Geography/Sich/Sich|Sich Lore in English]]
 
-Версія українською [Всесвіт Дикого Поля](Sich)
+Версія українською [Всесвіт Дикого Поля](Січ/Січ.md)

@@ -1,6 +1,6 @@
 %% Begin Waypoint %%
 - **[[North River]]**
-- **[[Sich]]**
+- **[[Sich/Sich]]**
 - **Central Area**
 	- [[Tavern]]
 

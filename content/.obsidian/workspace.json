@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sich/LD Utils.md",
+                "file": "Січ/Січ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LD Utils"
+              "title": "Січ"
             }
           }
         ]
@@ -180,13 +180,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a427719b20cd521f",
+  "active": "07ef5d6e4e37f3ca",
   "lastOpenFiles": [
-    "Sich/Sich.md",
+    "Січ/Лор/Фентезійна складова.md",
     "index.md",
+    "Січ/Лор/Лор.md",
+    "Січ/Січ.md",
+    "Січ/Географія/Географія.md",
+    "Sich_en/Weapons/Weapons.md",
+    "Січ/Фракції/Самара/Вступ до Самари/Вступ до Самари.md",
+    "Січ/Фракції/Самара/Самара.md",
+    "Січ/LD Utils.md",
+    "Січ/Фракції/Кодак/Кодацькі Квести/Підводна мапа скарбів.md",
+    "Січ/Зброя/Унікальна Зброя/Шабля Святослава.md",
+    "Січ/Зброя/Зброя.md",
+    "Sich_en/Geography/Sich/Sich.md",
     "Sich_en.md"
   ]
 }
