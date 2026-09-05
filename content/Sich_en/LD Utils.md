@@ -2,6 +2,8 @@
 
 [[Main Quest]]
 
+[[Technical]] — implementation plan for building the game
+
 Glossary:
 
 🏹 - Hunter
