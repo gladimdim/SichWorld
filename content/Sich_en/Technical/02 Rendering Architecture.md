@@ -11,7 +11,8 @@ Use **2:1 dimetric** — the classic "isometric" of Diablo 2, Fallout Tactics, A
 Why 2:1 rather than true 30° isometric: the maths is exact in integers, so tiles align perfectly with no sub-pixel seams, and every AI-generated tile can be validated against a fixed diamond mask. True isometric introduces irrational ratios and seams that are miserable to chase across thousands of generated assets.
 
 ```ts
-const TW = 128, TH = 64
+const TW = 128,
+  TH = 64
 
 const worldToScreen = (x: number, y: number, z = 0) => ({
   sx: (x - y) * (TW / 2),
@@ -52,13 +53,13 @@ Regions are chunked at **32 × 32 tiles**. A 900 × 900 region is ~790 chunks.
 
 Be realistic about a browser tab on mid-range hardware:
 
-| Bucket | Budget |
-|---|---|
+| Bucket                        | Budget                  |
+| ----------------------------- | ----------------------- |
 | Terrain atlas (one biome set) | 2 × 4096² RGBA ≈ 128 MB |
-| Props and buildings | 2 × 4096² ≈ 128 MB |
-| Characters resident in region | 3 × 4096² ≈ 192 MB |
-| UI, portraits, effects | 1 × 4096² ≈ 64 MB |
-| **Total resident** | **~512 MB VRAM** |
+| Props and buildings           | 2 × 4096² ≈ 128 MB      |
+| Characters resident in region | 3 × 4096² ≈ 192 MB      |
+| UI, portraits, effects        | 1 × 4096² ≈ 64 MB       |
+| **Total resident**            | **~512 MB VRAM**        |
 
 That is the ceiling you should design to. Above it, low-end integrated GPUs start evicting and you get stutter. Compressed textures (Basis Universal / KTX2) cut this by 4–6× and are worth adopting before you need them, not after.
 
@@ -114,11 +115,11 @@ Bake those masks in the asset pipeline. Without them, clicking a Cossack standin
 
 ## Pathfinding
 
-A* on the tile grid, with:
+A\* on the tile grid, with:
 
 - The grid stored as a flat `Uint8Array` per chunk.
 - **All pathfinding in a Web Worker.** Requests are batched per tick and results streamed back. This keeps wolf packs and NPC schedules off the render thread.
-- Hierarchical pathing between chunks for long routes (NPC daily schedules crossing the palanka) — chunk-level graph first, tile-level A* only within the current chunk.
+- Hierarchical pathing between chunks for long routes (NPC daily schedules crossing the palanka) — chunk-level graph first, tile-level A\* only within the current chunk.
 - Local avoidance for the 2–5 wolves of a pack so they do not stack into one tile.
 
 ## The map

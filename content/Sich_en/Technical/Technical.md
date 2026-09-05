@@ -18,7 +18,7 @@ These notes are written against the vault as it stands (182 English notes, 669 w
 
 ## The short version
 
-**Open world: yes, with one important qualification.** Not one continuous landmass — six seamless regions with diegetic travel between them. See [[00 Feasibility Verdict]] for why that is both cheaper *and* truer to the design.
+**Open world: yes, with one important qualification.** Not one continuous landmass — six seamless regions with diegetic travel between them. See [[00 Feasibility Verdict]] for why that is both cheaper _and_ truer to the design.
 
 **The quest system is the interesting part.** The cross-referencing already written into the vault — Hryts Dovbnia's three-way arc, [[❔Curse]] being permanently blocked if you stole Ostap's root, Taras's trust turning a blind night search into a map marker — reduces to fifteen recurring patterns, and all fifteen collapse to a single primitive. See [[01 World State and Quest Engine]].
 

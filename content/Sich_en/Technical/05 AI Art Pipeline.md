@@ -6,7 +6,7 @@ The plan is to generate everything with AI: terrain, props, buildings, character
 
 ## The two hard problems
 
-**1. Angle consistency.** A locked isometric camera means every asset must be rendered from *exactly* the same viewing angle. Image models drift. Ask for "isometric Cossack hut" a hundred times and you get a hundred slightly different camera elevations. In a tiled world those mismatches are glaring — roofs that do not agree on where the horizon is.
+**1. Angle consistency.** A locked isometric camera means every asset must be rendered from _exactly_ the same viewing angle. Image models drift. Ask for "isometric Cossack hut" a hundred times and you get a hundred slightly different camera elevations. In a tiled world those mismatches are glaring — roofs that do not agree on where the horizon is.
 
 **2. Frame-to-frame coherence in animation.** This is the real wall. Generating eight directions × eight animations × six frames per character means the model must keep the same character identical across ~380 images while changing only the pose. Per-frame generation produces boiling detail, drifting proportions, shifting shoulder patches. It looks broken in motion even when every single frame looks good in isolation.
 
@@ -28,11 +28,11 @@ This is how most shipped "AI art" games actually work, whatever their marketing 
 
 Ranked alternatives, for the cases where grey-boxing is overkill:
 
-| Approach | Use for | Do not use for |
-|---|---|---|
-| Grey-box → render → stylise | All animated characters and monsters | — |
+| Approach                        | Use for                                       | Do not use for                              |
+| ------------------------------- | --------------------------------------------- | ------------------------------------------- |
+| Grey-box → render → stylise     | All animated characters and monsters          | —                                           |
 | Image-to-3D → auto-rig → render | One-off props, buildings, static set dressing | Anything needing precise silhouette control |
-| Direct per-frame generation | Terrain tiles, portraits, item icons, UI | **Any character animation** |
+| Direct per-frame generation     | Terrain tiles, portraits, item icons, UI      | **Any character animation**                 |
 
 ## Terrain
 
@@ -57,7 +57,7 @@ Counter-measures, in order of effectiveness:
 3. **Silhouette rules as hard constraints.** The oseledets and moustache should be readable in a black-shape silhouette at game zoom. If they are not, the character does not read as Cossack no matter how good the texture is.
 4. **Ban a word list.** Filter generated concepts that drift — horned helmets, plate armour, generic hoods.
 
-The vault's own NPC notes are excellent prompt material. [[🧑Hryts Dovbnia]] is described down to *"old svytka, worn belt, oversized boots, old bow with the bowstring tied with a knot, big brown eyes with the expression of a dog that wants to be petted."* [[🧑Ostap Vernydub]] has *"white beard down to his waist, uncombed and with knots, a necklace of animal bones and teeth, a staff of black willow."* That is already a character brief. The notes that have this level of description should be generated first — they will come out best and will anchor the style for everything else.
+The vault's own NPC notes are excellent prompt material. [[🧑Hryts Dovbnia]] is described down to _"old svytka, worn belt, oversized boots, old bow with the bowstring tied with a knot, big brown eyes with the expression of a dog that wants to be petted."_ [[🧑Ostap Vernydub]] has _"white beard down to his waist, uncombed and with knots, a necklace of animal bones and teeth, a staff of black willow."_ That is already a character brief. The notes that have this level of description should be generated first — they will come out best and will anchor the style for everything else.
 
 ## Reuse strategy
 

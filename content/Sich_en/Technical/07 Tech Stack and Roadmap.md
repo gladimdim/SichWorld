@@ -2,18 +2,18 @@
 
 ## Stack
 
-| Layer | Choice | Why |
-|---|---|---|
-| Renderer | **PixiJS v8** | WebGPU with WebGL fallback, excellent batching, it is a *renderer* not an engine so you are not fighting someone else's scene graph |
-| Language | **TypeScript**, strict | The quest data is heavily typed; this is where most bugs get caught for free |
-| Build | **Vite** | Fast HMR, which matters enormously for the hot-reload loop in [[06 Vault to Game Data Pipeline]] |
-| Entities | **Hand-rolled ECS-lite** | A few hundred entities on screen. A full ECS library is overhead you will not recover |
-| UI | **Plain DOM overlay** on top of the canvas | Dialogue, inventory, journal, map. DOM gives free text layout, accessibility and Ukrainian font handling. Do not build a text engine in Pixi |
-| State | Small event-emitter store | The world-state store from [[01 World State and Quest Engine]] *is* the game state; UI subscribes to it |
-| Saves | **IndexedDB** | Saves are tens of kB; localStorage would work but IndexedDB avoids quota surprises |
-| Audio | **Howler.js** or raw WebAudio | Positional audio matters more than usual here — see [[00 Feasibility Verdict]] |
-| Workers | Pathfinding, chunk decode | Keeps the main thread on rendering |
-| Hosting | Static CDN | No server needed. The whole game is static files |
+| Layer    | Choice                                     | Why                                                                                                                                          |
+| -------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Renderer | **PixiJS v8**                              | WebGPU with WebGL fallback, excellent batching, it is a _renderer_ not an engine so you are not fighting someone else's scene graph          |
+| Language | **TypeScript**, strict                     | The quest data is heavily typed; this is where most bugs get caught for free                                                                 |
+| Build    | **Vite**                                   | Fast HMR, which matters enormously for the hot-reload loop in [[06 Vault to Game Data Pipeline]]                                             |
+| Entities | **Hand-rolled ECS-lite**                   | A few hundred entities on screen. A full ECS library is overhead you will not recover                                                        |
+| UI       | **Plain DOM overlay** on top of the canvas | Dialogue, inventory, journal, map. DOM gives free text layout, accessibility and Ukrainian font handling. Do not build a text engine in Pixi |
+| State    | Small event-emitter store                  | The world-state store from [[01 World State and Quest Engine]] _is_ the game state; UI subscribes to it                                      |
+| Saves    | **IndexedDB**                              | Saves are tens of kB; localStorage would work but IndexedDB avoids quota surprises                                                           |
+| Audio    | **Howler.js** or raw WebAudio              | Positional audio matters more than usual here — see [[00 Feasibility Verdict]]                                                               |
+| Workers  | Pathfinding, chunk decode                  | Keeps the main thread on rendering                                                                                                           |
+| Hosting  | Static CDN                                 | No server needed. The whole game is static files                                                                                             |
 
 ### Why PixiJS and not the alternatives
 
@@ -28,14 +28,14 @@ The PixiJS instinct is correct.
 
 Set these now and measure against them continuously:
 
-| Budget | Target |
-|---|---|
-| Frame time | 16.6 ms (60 fps) on a mid-range laptop with integrated graphics |
-| Resident VRAM | ≤ 512 MB (see [[02 Rendering Architecture]]) |
-| Initial download to first playable | ≤ 15 MB |
-| Per-region streamed download | ≤ 30 MB |
-| Save file | ≤ 500 kB |
-| Cold load to main menu | ≤ 5 s on a 20 Mbit connection |
+| Budget                             | Target                                                          |
+| ---------------------------------- | --------------------------------------------------------------- |
+| Frame time                         | 16.6 ms (60 fps) on a mid-range laptop with integrated graphics |
+| Resident VRAM                      | ≤ 512 MB (see [[02 Rendering Architecture]])                    |
+| Initial download to first playable | ≤ 15 MB                                                         |
+| Per-region streamed download       | ≤ 30 MB                                                         |
+| Save file                          | ≤ 500 kB                                                        |
+| Cold load to main menu             | ≤ 5 s on a 20 Mbit connection                                   |
 
 ## Build order — risk first
 
@@ -68,6 +68,7 @@ The single best slice in the vault, because it exercises almost everything:
 Content: the Ingulsk palanka, the steppe, the pasture, the north swamp, Ostap's hut, the watering hole. NPCs: Naum, Honta, Taras, Hryts, Ostap, Pechyborshch. Mobs: wolves, mavky, the Shapeshifter.
 
 **Pass criteria:**
+
 - All three Hryts endings play through and visibly change [[❔Curse]].
 - Stealing Ostap's root genuinely blocks [[❔Curse]], and the Shapeshifter remains alive and dangerous on the map.
 - Taras's trust changes whether you get a map marker.
@@ -102,7 +103,7 @@ Needs substantial new design work — Chapter 3 is currently mostly headings.
 
 ## On timing
 
-I am not going to give you a calendar estimate, because it depends entirely on how much time per week goes into this and how much of the art pipeline you automate versus hand-fix. What I will say is that the *ordering* above is more important than the pace: each milestone is independently playable, and each one retires risk before adding volume.
+I am not going to give you a calendar estimate, because it depends entirely on how much time per week goes into this and how much of the art pipeline you automate versus hand-fix. What I will say is that the _ordering_ above is more important than the pace: each milestone is independently playable, and each one retires risk before adding volume.
 
 The most common way projects like this die is building the world first and discovering at month nine that the animation pipeline does not hold up. Spike 0 exists specifically to prevent that.
 

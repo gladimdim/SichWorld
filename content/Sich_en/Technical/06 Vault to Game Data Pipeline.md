@@ -6,7 +6,7 @@ The vault stays the source of truth for design. The game reads compiled data. Th
 
 It is tempting to write a parser that reads `## Resolution Options` and infers branches. Resist it.
 
-The prose in this vault is *good* precisely because it is not structured. [[❔ Hunters' Dispute]] expresses its logic through italic dialogue and a markdown reward table. [[Stolen Saber]] is a flowing paragraph in which the attribute gates appear mid-sentence. Any parser sophisticated enough to read that reliably would be more work than the game, and it would break every time someone wrote naturally.
+The prose in this vault is _good_ precisely because it is not structured. [[❔ Hunters' Dispute]] expresses its logic through italic dialogue and a markdown reward table. [[Stolen Saber]] is a flowing paragraph in which the attribute gates appear mid-sentence. Any parser sophisticated enough to read that reliably would be more work than the game, and it would break every time someone wrote naturally.
 
 Instead: **add a fenced block containing the machine-readable part, sitting below the prose.**
 
@@ -16,6 +16,7 @@ Instead: **add a fenced block containing the machine-readable part, sitting belo
 #quest #independent_quests
 
 ## Quest Giver
+
 [[🧑Hryts Dovbnia]]
 
 ... all the existing prose, untouched ...
@@ -99,13 +100,13 @@ type: quest
 
 The compiler needs to handle every link style actually present in the vault:
 
-| Style | Example | Count |
-|---|---|---|
-| Bare | `[[❔Curse]]` | most |
-| Aliased | `[[🧑Hryts Dovbnia\|Hryts]]` | common |
-| Path-qualified | `[[Sich/Factions/Kodak/Kodak Palanka]]` | a few |
-| Relative traversal | `[[../../../Січ/Січ]]` | 3 — and all 3 are broken |
-| Escaped pipe inside a table | `[[🧑 💵 🏹Yatsko Lysytsia.\\\|Yatsko]]` | 1 — broken |
+| Style                       | Example                                  | Count                    |
+| --------------------------- | ---------------------------------------- | ------------------------ |
+| Bare                        | `[[❔Curse]]`                            | most                     |
+| Aliased                     | `[[🧑Hryts Dovbnia\|Hryts]]`             | common                   |
+| Path-qualified              | `[[Sich/Factions/Kodak/Kodak Palanka]]`  | a few                    |
+| Relative traversal          | `[[../../../Січ/Січ]]`                   | 3 — and all 3 are broken |
+| Escaped pipe inside a table | `[[🧑 💵 🏹Yatsko Lysytsia.\\\|Yatsko]]` | 1 — broken               |
 
 Resolution order: exact path → unique basename → error. Ambiguous basenames must be a build error, not a silent pick — this vault has two `NPC.md`, several `Quests.md`, and both `Kodak Palanka.md` and `Ingul Palanka.md` appearing under two different folders.
 
@@ -118,13 +119,17 @@ Use `remark` with a wikilink plugin rather than regex. Regex will break on the e
 The compiler emits one table:
 
 ```json
-{ "q.unlucky.hryts.askForFur": { "en": "Listen, friend, help me out...",
-                                 "uk": "Слухай, друже, виручи..." } }
+{
+  "q.unlucky.hryts.askForFur": {
+    "en": "Listen, friend, help me out...",
+    "uk": "Слухай, друже, виручи..."
+  }
+}
 ```
 
 Missing UA keys become build warnings with a report, so translation debt is visible rather than discovered at ship time.
 
-Note that the Ukrainian side is currently *behind* — it has no Technical section and appears to lag on several of the newer Ingulsk quests. That is fine; the pipeline should make the gap measurable.
+Note that the Ukrainian side is currently _behind_ — it has no Technical section and appears to lag on several of the newer Ingulsk quests. That is fine; the pipeline should make the gap measurable.
 
 ## Build outputs
 
@@ -161,6 +166,7 @@ Given the repo already publishes with Quartz, this can sit as a page on the same
 Order matters. Do not attempt this all at once.
 
 **Auto-derivable now**, no human pass:
+
 - IDs from paths (generated once, then frozen).
 - Note type from folder and tag (`#quest`, `#join_quest`, `#npc`, `#trader`, `#chapter`, `#boss`, `#animal`).
 - The link graph.
@@ -177,7 +183,7 @@ Order matters. Do not attempt this all at once.
 6. Sich Outer Circle.
 7. Everything else.
 
-**Needs design work before it can be encoded at all** — see [[08 Design Issues Found]]. Chapter 3 in particular is mostly headings: [[Gathering Provisions]] literally says *"(To be written for each palanka — what needs to be done.)"*, and [[Main Quest]] carries two `// TODO` markers over the preparation quests and the Ataman audience gate.
+**Needs design work before it can be encoded at all** — see [[08 Design Issues Found]]. Chapter 3 in particular is mostly headings: [[Gathering Provisions]] literally says _"(To be written for each palanka — what needs to be done.)"_, and [[Main Quest]] carries two `// TODO` markers over the preparation quests and the Ataman audience gate.
 
 ## Keep Quartz working
 
