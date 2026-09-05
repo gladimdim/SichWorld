@@ -1,0 +1,719 @@
+{
+  "chapter_0": {
+    "id": "chapter_0",
+    "title": "Chapter 0",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 0/Chapter_0_Scenario.md"
+  },
+  "free_the_prisoners": {
+    "id": "free_the_prisoners",
+    "title": "Free the Prisoners",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 0/Free the Slaves.md"
+  },
+  "chapter_1": {
+    "id": "chapter_1",
+    "title": "Chapter 1",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 1. Entering the Sich/Chapter 1 Scenario.md"
+  },
+  "chapter_1_entering_the_sich": {
+    "id": "chapter_1_entering_the_sich",
+    "title": "Chapter 1. Entering the Sich",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 1. Entering the Sich/Chapter 1. Entering the Sich.md"
+  },
+  "run_to_sich_with_ostap": {
+    "id": "run_to_sich_with_ostap",
+    "title": "Run to Sich with Ostap",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 1. Entering the Sich/Passage to the Sich.md"
+  },
+  "chapter_2": {
+    "id": "chapter_2",
+    "title": "Chapter 2",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Chapter 2 Scenario.md"
+  },
+  "chapter_2_entering_the_higher_circle": {
+    "id": "chapter_2_entering_the_higher_circle",
+    "title": "Chapter 2. Entering the Higher Circle",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Chapter 2. Entering the Higher Circle.md"
+  },
+  "entering_the_higher_circle_of_sich": {
+    "id": "entering_the_higher_circle_of_sich",
+    "title": "Entering the Higher Circle of Sich",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Entering the Higher Circle of Sich.md"
+  },
+  "conversation_with_the_ataman": {
+    "id": "conversation_with_the_ataman",
+    "title": "Conversation with the Ataman",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Quests/Conversation with the Ataman.md"
+  },
+  "kodak_audit": {
+    "id": "kodak_audit",
+    "title": "Kodak Audit",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Quests/Kodak Audit.md"
+  },
+  "quests": {
+    "id": "quests",
+    "title": "Quests",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Quests.md"
+  },
+  "samara_audit": {
+    "id": "samara_audit",
+    "title": "Samara Audit",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Quests/Samara Audit.md"
+  },
+  "the_secretarys_sick_son": {
+    "id": "the_secretarys_sick_son",
+    "title": "The Secretary's Sick Son",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Quests/The Secretary's Sick Son.md"
+  },
+  "true_audit": {
+    "id": "true_audit",
+    "title": "True Audit",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 2. Entering the Higher Circle/Quests/True Audit.md"
+  },
+  "chapter_3": {
+    "id": "chapter_3",
+    "title": "Chapter 3",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 3/Chapter 3.md"
+  },
+  "gathering_people": {
+    "id": "gathering_people",
+    "title": "Gathering People",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 3/Quests/Gathering People.md"
+  },
+  "gathering_provisions": {
+    "id": "gathering_provisions",
+    "title": "Gathering Provisions",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 3/Quests/Gathering Provisions.md"
+  },
+  "gathering_the_army": {
+    "id": "gathering_the_army",
+    "title": "Gathering the Army",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Chapter 3/Quests/Gathering the Army.md"
+  },
+  "drive_the_djinn_from_the_cave": {
+    "id": "drive_the_djinn_from_the_cave",
+    "title": "Drive the Djinn from the Cave",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Charakternyk Quests/Drive the Djinn from the Cave.md"
+  },
+  "charakternyk_quests": {
+    "id": "charakternyk_quests",
+    "title": "Charakternyk Quests",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Charakternyk Quests.md"
+  },
+  "joining_kodak": {
+    "id": "joining_kodak",
+    "title": "Joining Kodak",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Factions/Kodak/Joining Kodak/Joining Kodak.md"
+  },
+  "global": {
+    "id": "global",
+    "title": "Global",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Global/Global.md"
+  },
+  "rare_trophies": {
+    "id": "rare_trophies",
+    "title": "Rare Trophies",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Global/Rare Animals.md"
+  },
+  "ivan_svitilos_lighthouse": {
+    "id": "ivan_svitilos_lighthouse",
+    "title": "Ivan Svitilo's Lighthouse",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Ivan Svitilo's Lighthouse.md"
+  },
+  "main_quest": {
+    "id": "main_quest",
+    "title": "Main Quest",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Main Quest.md"
+  },
+  "blind_cossack": {
+    "id": "blind_cossack",
+    "title": "Blind Cossack",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Miscellaneous/Blind Cossack.md"
+  },
+  "miscellaneous": {
+    "id": "miscellaneous",
+    "title": "Miscellaneous",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Miscellaneous/Miscellaneous.md"
+  },
+  "old_blahomir": {
+    "id": "old_blahomir",
+    "title": "Old Blahomir",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/NPC/Blahomir.md"
+  },
+  "npc": {
+    "id": "npc",
+    "title": "NPC",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/NPC/NPC.md"
+  },
+  "vodianyi_kurylo_water_spirit_kurylo": {
+    "id": "vodianyi_kurylo_water_spirit_kurylo",
+    "title": "Vodianyi Kurylo (Water Spirit Kurylo)",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/NPC/Vodianyi Kurylo.md"
+  },
+  "yakym_pohrebnyi": {
+    "id": "yakym_pohrebnyi",
+    "title": "Yakym Pohrebnyi",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/NPC/Yakym Pohrebnyi.md"
+  },
+  "otherworld_adventure": {
+    "id": "otherworld_adventure",
+    "title": "Otherworld Adventure",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/Otherworld Quest.md"
+  },
+  "escape_from_the_island": {
+    "id": "escape_from_the_island",
+    "title": "Escape from the Island",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/Quests/Escape from the Island.md"
+  },
+  "find_yakym_pohrebnyis_horse": {
+    "id": "find_yakym_pohrebnyis_horse",
+    "title": "Find Yakym Pohrebnyi's Horse",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Quests/Otherworld Quest/Quests/Find Yakym Pohrebnyi's Horse.md"
+  },
+  "devils_popaddya": {
+    "id": "devils_popaddya",
+    "title": "Devil's Popaddya",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/Devil's Popaddya.md"
+  },
+  "stolen_saber": {
+    "id": "stolen_saber",
+    "title": "Stolen Saber",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/Stolen Saber.md"
+  },
+  "attack_on_a_merchant": {
+    "id": "attack_on_a_merchant",
+    "title": "Attack on a Merchant",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/❔Attack on a Merchant.md"
+  },
+  "bring_food_to_litvin": {
+    "id": "bring_food_to_litvin",
+    "title": "Bring Food to Litvin",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/❔Bring Food to Litvin.md"
+  },
+  "bring_herbs": {
+    "id": "bring_herbs",
+    "title": "Bring Herbs",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/❔Bring Herbs.md"
+  },
+  "bundle_of_arrows": {
+    "id": "bundle_of_arrows",
+    "title": "Bundle of Arrows",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/❔Bundle of Arrows.md"
+  },
+  "check_the_traps": {
+    "id": "check_the_traps",
+    "title": "Check the Traps",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/❔Check the Traps.md"
+  },
+  "cooks_secret": {
+    "id": "cooks_secret",
+    "title": "Cook's Secret",
+    "giver": "little_cook",
+    "category": "side",
+    "description": "Little Cook approaches you and quietly asks for help. Tomorrow is a holiday — the anniversary of the palanka's founding — and 🧑Naum Lysenko. Ingulsk Kurinnyi|Naum asked her to prepare a festive feast. But there's a problem: she wants to cook a legendary kulesh (millet porridge) from her grandmother's recipe, and she's missing two things — steppe honey and a special clay makhitra (cooking pot) in which kulesh turns out different from a regular cauldron. \"I'm ashamed to ask the Cossacks — they'll say it's women's business. And the holiday is tomorrow, and I won't manage alone. Help me — I'll feed you so well that even 💵🧑Honta|Honta will lick his fingers.\"",
+    "walkthrough": [
+      "Step 1: Steppe Honey",
+      "Step 2: Clay Makhitra"
+    ],
+    "rewards": [
+      "Daily portion of kulesh from Little Cook (restores health)",
+      "If you brought Tykhon Medovyk to the feast — he becomes accessible as a honey merchant near the palanka (once a week)",
+      "Respect from 🧑Naum Lysenko. Ingulsk Kurinnyi|Naum: *\"I see you can help with more than just arrows. Good.\"*",
+      "If Hryts helped — he receives praise from Naum for initiative (affects his arc in ❔Unlucky)"
+    ],
+    "connections": [
+      "attack_on_a_merchant",
+      "kozhemyaka",
+      "unlucky",
+      "first_hunt",
+      "hryts_dovbnia",
+      "devils_popaddya"
+    ],
+    "rawPath": "Factions/Ingulsk/Quests/❔Cook's Secret.md"
+  },
+  "curse": {
+    "id": "curse",
+    "title": "Curse",
+    "giver": "ostap_vernydub",
+    "category": "side",
+    "description": "You return to 🧑Ostap Vernydub|Ostap on the swamp. He sits by the fire and without greetings says: \"It's a Shapeshifter. I knew he would return. Thirty years ago there was one just like him — barely drove him away with a group. You can't kill a Shapeshifter simply. The blade must be coated with poison from aconite and mavka bile. I can brew it, but I need the bile. And Mavky|mavky live on my very swamp... I'm not going to fight them.\"",
+    "walkthrough": [
+      "Stage 1 — Mavka Bile",
+      "**Taught honestly** → Hryts comes on his own: *\"I heard you're going after the Shapeshifter? I'm with you. I shoot better now!\"* — becomes a companion, helps in the fight with mavky.",
+      "**Gave fur (deception)** → Hryts comes too, but in battle misses and flees — no help.",
+      "**Betrayed to Honta** → Hryts doesn't appear.",
+      "Stage 2 — Poison",
+      "Stage 3 — Hunting the Shapeshifter",
+      "**If 🧑Taras Chub trusts you** (quest ❔Wolf Attack): he'll say exactly where he saw the Shapeshifter: *\"He comes to the watering hole when the moon is over the ravine. Wait for him there.\"* — exact location, easier to find.",
+      "**If ❔Wolf Attack wasn't done**: must search yourself, wandering the steppe at night, risking running into wolf packs.",
+      "🧑Hryts Dovbnia (if taught honestly) — shoots from the flank",
+      "💵🧑Honta|Honta can be called for extra pay",
+      "With coated weapon — realistically killable at this level"
+    ],
+    "rewards": [
+      "**Shapeshifter hide** — rare material: 🧑 💵Kozhem'yaka will buy for a huge sum, OR 🧑 💵Bosper can make armor from it",
+      "🧑Ostap Vernydub|Ostap becomes a permanent trader in rare potions",
+      "🧑Naum Lysenko. Ingulsk Kurinnyi|Naum Lysenko greatly increases respect for the hero",
+      "🧑Taras Chub smiles for the first time: *\"Quiet now. Good.\"*",
+      "If 🧑Hryts Dovbnia|Hryts survived and helped — he is accepted into the Ingulsk hunters (his arc concludes)"
+    ],
+    "connections": [
+      "wolf_attack",
+      "unlucky",
+      "swamp_healer"
+    ],
+    "rawPath": "Factions/Ingulsk/Quests/❔Curse.md"
+  },
+  "specific_fur": {
+    "id": "specific_fur",
+    "title": "Specific Fur",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/❔Specific Fur.md"
+  },
+  "swamp_healer": {
+    "id": "swamp_healer",
+    "title": "Swamp Healer",
+    "giver": "pechyborshch",
+    "category": "side",
+    "description": "🧑 💵Pechyborshch says: \"I need the root of a black willow that only grows in the swamp. I won't go there myself — my legs aren't what they used to be, and in the swamp... it's unclean. But without the root I can't brew a fever remedy. And three people in the palanka already have fever.\"",
+    "walkthrough": [
+      "Option 1: Ask",
+      "Option 2: Steal",
+      "Option 3: Tell about the howling (requires [[❔Wolf Attack]])"
+    ],
+    "rewards": [
+      "🧑 💵Pechyborshch brews potions, heals the sick, gives several free potions",
+      "If you befriended 🧑Ostap Vernydub|Ostap — quest ❔Curse opens"
+    ],
+    "connections": [
+      "wolf_attack",
+      "ostap_vernydub",
+      "curse",
+      "curse"
+    ],
+    "rawPath": "Factions/Ingulsk/Quests/❔Swamp Healer.md"
+  },
+  "unlucky": {
+    "id": "unlucky",
+    "title": "Unlucky",
+    "giver": "hryts_dovbnia",
+    "category": "side",
+    "description": "🧑Hryts Dovbnia pulls you aside: \"Listen, friend, help me out... 💵🧑Honta gave me a trial — bring the fur of a wolf I killed myself. And I... well, you understand. I shoot like a blind man. Maybe you could bring me the fur? I'll say I killed it myself. Honta won't find out.\"",
+    "walkthrough": [
+      "Option 1: Give the fur (deception)",
+      "Option 2: Teach honestly",
+      "Option 3: Tell Honta"
+    ],
+    "rewards": [
+      "**Option 1:** Hryts is grateful but incompetent",
+      "**Option 2:** Hryts becomes a reliable companion",
+      "**Option 3:** 💵🧑Honta gives arrows and some free training for honesty"
+    ],
+    "connections": [
+      "wolf_attack",
+      "hryts_dovbnia",
+      "curse"
+    ],
+    "rawPath": "Factions/Ingulsk/Quests/❔Unlucky.md"
+  },
+  "wolf_attack": {
+    "id": "wolf_attack",
+    "title": "Wolf Attack",
+    "giver": "taras_chub",
+    "category": "side",
+    "description": "🧑Taras Chub stands near a pen with a mauled sheep. He says briefly: \"Wolves. The third one this week. Usually they don't come this close. Something is driving them here from the steppe. At least kill those near the pasture — I'll pay.\"",
+    "walkthrough": [],
+    "rewards": [
+      "Money",
+      "Wolf hides",
+      "🧑Taras Chub begins to trust the hero"
+    ],
+    "connections": [
+      "ostap_vernydub",
+      "swamp_healer",
+      "taras_chub",
+      "curse"
+    ],
+    "rawPath": "Factions/Ingulsk/Quests/❔Wolf Attack.md"
+  },
+  "ingulsk_quests": {
+    "id": "ingulsk_quests",
+    "title": "Ingulsk Quests",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Quests/📃Ingulsk Quests.md"
+  },
+  "deer_antlers": {
+    "id": "deer_antlers",
+    "title": "Deer Antlers",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔  Deer Antlers.md"
+  },
+  "finding_a_doctor": {
+    "id": "finding_a_doctor",
+    "title": "Finding a Doctor",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔ Finding a Doctor.md"
+  },
+  "first_hunt": {
+    "id": "first_hunt",
+    "title": "First Hunt",
+    "giver": "naum_lysenko_ingulsk_kurinnyi",
+    "category": "side",
+    "description": "After completing previous tasks 🧑Naum Lysenko. Ingulsk Kurinnyi says: \"Well then, you're not entirely hopeless. But in Ingulsk every Cossack must be a hunter. Words are not enough — show what you can do. Go to the steppe, bring me a saiga carcass. Not just any one — I need an old male with large horns. These aren't easy to find. Talk to the lads, maybe someone can point you in the right direction.\"",
+    "walkthrough": [
+      "Gathering Information",
+      "The Actual Hunt",
+      "**Have marker from Taras** → go straight to the dry ravine, find the saiga without wandering.",
+      "**Have only Honta's advice** → need to search near ravines with water, check several locations before finding it.",
+      "**Asked no one** → wander the steppe for a long time; wolves may attack along the way; eventually find the herd but not the old male. Find the male further on — separately.",
+      "**With Honta's poisoned arrows** → the saiga slows down, can be finished with a second shot.",
+      "**With Pechyborshch's potion** → you see the saiga from a distance; the first shot from ideal position — better chance of killing outright.",
+      "**Without preparation** → need to chase it and shoot on the run. Difficult, can miss and need to find another.",
+      "Return"
+    ],
+    "rewards": [
+      "Naum Lysenko's respect (brings you closer to joining the palanka)",
+      "Saiga horns (can be sold to 🧑 💵Kozhem'yaka|Kozhem'yaka or 🧑 💵Bosper|Bosper)",
+      "If you took Hryts — 2 rabbit skins (small bonus)",
+      "If you did everything perfectly (spoke to everyone, killed with first shot) — Naum also gives a **hunting knife**: *\"Here. A real hunter without a knife is no hunter.\"*"
+    ],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔ First Hunt.md"
+  },
+  "hunters_dispute": {
+    "id": "hunters_dispute",
+    "title": "Hunters' Dispute",
+    "giver": "naum_lysenko_ingulsk_kurinnyi",
+    "category": "side",
+    "description": "You approach 🧑Naum Lysenko. Ingulsk Kurinnyi|Naum, and he sits by his kurin rubbing his temples: \"Oh dear... Two fools have driven the whole palanka mad. Khoma Riznyk and Opanas Kryvyi — went hunting for a deer together, and now they can't divide the catch. Khoma says — he fired the arrow that stopped the deer. Opanas says — he finished it off and skinned it. Both are telling the truth, and both have been eating my head. Go sort it out, because I can't look at them anymore.\"",
+    "walkthrough": [
+      "Khoma Riznyk",
+      "Opanas Kryvyi",
+      "Investigation",
+      "Option 1: Split Equally (without investigation)",
+      "Option 2: Take Sides",
+      "Option 3: Reveal the Truth (requires investigation)",
+      "Option 4: Duel (rough path)"
+    ],
+    "rewards": [],
+    "connections": [
+      "hryts_dovbnia",
+      "unlucky",
+      "first_hunt",
+      "honta",
+      "yatsko_lysytsia",
+      "yatsko_lysytsia",
+      "specific_fur"
+    ],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔ Hunters' Dispute.md"
+  },
+  "sick_livestock": {
+    "id": "sick_livestock",
+    "title": "Sick Livestock",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔ Sick Livestock.md"
+  },
+  "strange_sounds": {
+    "id": "strange_sounds",
+    "title": "Strange Sounds",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔ Strange Sounds.md"
+  },
+  "fight_in_the_tavern": {
+    "id": "fight_in_the_tavern",
+    "title": "Fight in the Tavern",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/❔Fight in the Tavern.md"
+  },
+  "ingulsk_introduction": {
+    "id": "ingulsk_introduction",
+    "title": "Ingulsk Introduction",
+    "giver": "unknown",
+    "category": "side",
+    "description": "",
+    "walkthrough": [],
+    "rewards": [],
+    "connections": [],
+    "rawPath": "Factions/Ingulsk/Joining Quests/📃Ingulsk Introduction.md"
+  }
+}
