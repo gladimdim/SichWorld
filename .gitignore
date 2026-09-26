@@ -8,3 +8,6 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# An Obsidian vault opened at the repository root (the site vault is content/)
+/.obsidian/
